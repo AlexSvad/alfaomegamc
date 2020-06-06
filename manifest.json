@@ -1,0 +1,22 @@
+{
+  "name": "Fundación Alfa Omega MC",
+  "short_name": "Alfa Omega MC",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0050ff",
+  "description": "Dedicada a la difusión del conocimiento",
+  "icons": [ {
+    "src": "fotos/app-nativa/ao192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "fotos/app-nativa/ao128.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }, {
+    "src": "fotos/app-nativa/ao48.png",
+    "type": "image/png",
+    "sizes": "48x48"
+  }],
+    "display": "standalone"
+}
