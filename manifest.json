@@ -3,7 +3,7 @@
   "short_name": "Alfa Omega MC",
   "start_url": "/",
   "display": "browser",
-  "background_color": "#0050ff",
+  "background_color": "#002BD6",
   "description": "Dedicada a la difusión del conocimiento",
   "icons": [ {
     "src": "fotos/app-nativa/ao192.png",
