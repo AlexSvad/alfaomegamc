@@ -190,6 +190,7 @@ nav ul li a:hover::after{
   }
 
   nav ul{
+    margin-top: -72px;
     flex-direction: column;
   }
 
