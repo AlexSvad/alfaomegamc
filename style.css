@@ -673,14 +673,15 @@ p {
 }
 
 .grand-title h4{
+  text-shadow: 0 0 1px #0050ff;
   text-align: center;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1.2px;
+  mix-blend-mode: hard-light;
   margin: 30px;
-  color: #002BD6;
+  color: #000;
 }
-
 
 .content .text{
   display: flex;
