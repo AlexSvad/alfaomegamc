@@ -418,6 +418,8 @@ p {
   position: relative;
   z-index: 1;
   transition: color 1s cubic-bezier(0.6, 0, 0.2, 1);
+  padding: 2em 2em;
+  margin: 2em 2em;
 }
 .panel__title:before {
   content: '';
@@ -430,8 +432,8 @@ p {
   background: rgba(0, 0, 0, 0.7);
   border: solid 2px #002BD6;
   z-index: -1;
-  padding: 0.5em 1em;
-  margin: -0.5em -0.5em;
+  padding: 2em 2em;
+  margin: 1.5em 1.5em;
   opacity: 0;
   transform: scale(0.9);
   transition: all 1s cubic-bezier(0.6, 0, 0.2, 1);
