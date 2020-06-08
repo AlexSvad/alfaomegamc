@@ -1,11 +1,12 @@
 var today = new Date();
+var dia = "Llamada§recibida:§" + today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear();
 var time = "Hora§actual:§" + today.getHours() + "§:§" + today.getMinutes() + "§:§" + today.getSeconds();
 var lines = [
     "     ",
     "     ",
-    "Llamada§recibida", 
-    time ,
-    "ADVERTENCIA:§Error§en§la§Matrix",
+    dia, 
+    time,
+    "ADVERTENCIA:§Anomalía§detectada",
     "Hilo§de§ejecución:§corriendo"
 ];
 
@@ -32,7 +33,7 @@ var numbers = function() {
     shuffle();
     var _t = setTimeout(function() {
         code.dataset.rem = "boop";
-        text.innerHTML = "Fundación Alfa Omega MC envía: ERROR 404";
+        text.innerHTML = "Rompió la MATRIX: ERROR 404";
         var __t = setTimeout(function() {
             still = true;
             var __t = setTimeout(function() {
