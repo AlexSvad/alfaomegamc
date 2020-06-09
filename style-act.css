@@ -19,19 +19,10 @@ a{
   color: #000;
   font-weight: 600;
 }
-video { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
 div#titulo {
-  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 header {
@@ -48,7 +39,6 @@ header {
   width: 90%;
   margin: 0 auto;
 }
-
 .menu-toggle{
   position: fixed;
   top: 2.5rem;
@@ -195,7 +185,7 @@ nav ul li a:hover::after{
   }
 
   nav ul li{
-    margin-top: 2.5rem;
+    margin-top: 1.75rem;
   }
 
   nav ul li a{
@@ -291,21 +281,12 @@ p {
     color: #fff;
 }
 
-.flecini {
-  position: absolute;
-  bottom: 0;
-  left: 48.1%;
-  width: 55px;
-  height: 37px;
-  background-image: url(fotos/flecini.png);
-}
-
 .flecfin {
   position: relative;
   margin-top: -17px;
   margin-bottom: 22px;
   bottom: 0;
-  left: 45%;
+  left: 48.7%;
   width: 28px;
   height: 19px;
   background-image: url(fotos/flecfin.png);
@@ -530,15 +511,14 @@ p {
   background-size: cover;
   overflow: hidden;
 }
-
 .photo-text{
+  text-shadow: 0 0 13px #0050ff;
   min-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .photo h4{
   text-shadow: 0 0 13px #0050ff;
   font-size: 50px;
@@ -550,8 +530,8 @@ p {
   position: relative;
   z-index: 998;
 }
-
 .photo p{
+  text-shadow: 0 0 13px #0050ff;
   width: 60%;
   text-align: center;
   letter-spacing: 1.5px;
@@ -559,14 +539,12 @@ p {
   position: relative;
   z-index: 998;
 }
-
 .content{
   width: 100%;
   min-height: 100px;
   position: relative;
   z-index: 1;
 }
-
 .content:before{
   content: '';
   width: 50%;
@@ -577,7 +555,6 @@ p {
   background-color: #FEFFFF;
   transform: skewY(5.5deg);/*8*/
 }
-
 .content:after{
   content: '';
   width: 50%;
@@ -588,7 +565,6 @@ p {
   background-color: #FEFFFF;
   transform: skewY(-5.5deg);/*8*/
 }
-
 .grand-title{
   display: flex;
   justify-content: center;
@@ -600,17 +576,16 @@ p {
   padding: 0;
   margin: 0 auto;
 }
-
 .grand-title h4{
+  text-shadow: 0 0 1px #0050ff;
   text-align: center;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1.2px;
+  mix-blend-mode: hard-light;
   margin: 30px;
-  color: #002BD6;
+  color: #000;
 }
-
-
 .content .text{
   display: flex;
   justify-content: center;
@@ -620,20 +595,16 @@ p {
   position: relative;
   z-index: 999;
 }
-
-
 .redes{
   margin-top: 133px;
 
 }
-
 @media (max-width: 600px) {
   .redes {
     margin-top: 222px;
     margin-bottom: -133px;
   }
 }
-
 .redes ul {
   position:relative;
   top:50%;
@@ -646,7 +617,7 @@ p {
 }
 .redes ul li {
   list-style:none;
-  display: inline-block; /* Get all images to show in a row */
+  display: inline-block;
   text-align:center; 
   padding-top: 20px;
 }
@@ -683,7 +654,6 @@ p {
   transform-origin: left;
   transition:transform .5s;
 }
-
 .redes ul li a span:nth-child(3) {
   bottom:0;
   left:0;
@@ -694,7 +664,6 @@ p {
   transform-origin: right;
   transition:transform .5s;
 }
-
 .redes ul li a span:nth-child(2),
 .redes ul li a span:nth-child(4){
   width:3px;
@@ -723,7 +692,6 @@ p {
   transform-origin: bottom;
   transition:transform .5s;
 }
-
 .redes .facebook:hover {
   color: #3c5898;
 }
@@ -769,20 +737,16 @@ p {
 .redes ul li a:hover:nth-child(4) {
   color: #dd4b39;
 }
-
 footer{
   position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
 }
-
  @media (max-height:800px){
   footer { position: static; }
   header { padding-top:40px; }
 }
- 
- 
 .footer-distributed{
   background-color: #002BD6;
   box-sizing: border-box;
@@ -791,54 +755,39 @@ footer{
 
   padding: 50px 50px 60px 50px;
 }
- 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
   display: inline-block;
   vertical-align: top;
 }
- 
-/* Footer left */
- 
 .footer-distributed .footer-left{
   width: 40%;
   text-align: center;
 }
- 
 .footer-distributed h3{
   color:  #fff;
   margin: 0;
 }
- 
-/* Footer links */
- 
 .footer-distributed .footer-links{
   color:  #ffffff;
   margin: 20px 0 12px;
 }
- 
 .footer-distributed .footer-links a{
   display:inline-block;
   line-height: 1.8;
   text-decoration: none;
   color:  inherit;
 }
- 
 .footer-distributed .footer-company-name{
   color:  #8f9296;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
 }
- 
-/* Footer Center */
- 
 .footer-distributed .footer-center{
   width: 25%;
 }
- 
- 
 .footer-distributed .footer-center i{
   background-color:  #33383b;
   color: #ffffff;
@@ -851,38 +800,29 @@ footer{
   margin: 10px 15px;
   vertical-align: middle;
 }
- 
 .footer-distributed .footer-center i.fa-envelope{
   font-size: 17px;
   line-height: 38px;
 }
- 
 .footer-distributed .footer-center p{
   display: inline-block;
   color: #ffffff;
   vertical-align: middle;
   margin:0;
 }
- 
 .footer-distributed .footer-center p span{
   display:block;
   font-weight: normal;
   font-size:14px;
   line-height:2;
 }
- 
 .footer-distributed .footer-center p a{
   color:  #e0ac1c;
   text-decoration: none;;
 }
- 
- 
-/* Footer Right */
- 
 .footer-distributed .footer-right{
   width: 30%;
 }
- 
 .footer-distributed .footer-company-about{
   line-height: 20px;
   color:  #92999f;
@@ -890,7 +830,6 @@ footer{
   font-weight: normal;
   margin: 0;
 }
- 
 .footer-distributed .footer-company-about span{
   display: block;
   color:  #ffffff;
@@ -898,11 +837,9 @@ footer{
   font-weight: bold;
   margin-bottom: 20px;
 }
- 
 .footer-distributed .footer-icons{
   margin-top: 25px;
 }
- 
 .footer-distributed .footer-icons a{
   display: inline-block;
   width: 35px;
@@ -910,26 +847,18 @@ footer{
   cursor: pointer;
   background-color: #33383b;
   border-radius: 2px;
- 
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
- 
   margin-right: 3px;
   margin-bottom: 5px;
 }
- 
-/* Here is the code for Responsive Footer */
-/* You can remove below code if you don't want Footer to be responsive */
- 
-
 @media (min-width: 881px) {
   .footer-distributed .footer-right{
    padding-left: 33px;
   }
 }
-
 @media (max-width: 880px) {
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
@@ -943,7 +872,6 @@ footer{
     margin-left: 0;
   }
 }
-
 .facebook-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
