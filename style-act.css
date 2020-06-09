@@ -18,6 +18,10 @@ a{
   text-decoration: none;
   color: #000;
   font-weight: 600;
+  text-shadow: 0 0 4px #fff;
+}
+header a{
+   font-size: 2vmax;
 }
 div#titulo {
   width: 100%;
