@@ -77,6 +77,7 @@ header {
   cursor: pointer;
   z-index: 1001;
   display: none;
+  text-shadow: 0 0 4px #fff;
 }
 
 nav{
