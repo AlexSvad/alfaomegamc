@@ -69,14 +69,14 @@ nav{
   font-size: 1.8rem;
 }
 
-.brand{
+.marca{
   font-size: 5rem;
   font-weight: 300;
   transform: translateX(-100rem);
   animation: slideIn .5s forwards;
 }
 
-.brand span{
+.marca span{
   color: crimson;
 }
 
@@ -203,7 +203,7 @@ nav ul li a:hover::after{
     font-size: 1.7rem;
   }
 
-  .brand{
+  .marca{
     font-size: 5rem;
   }
   

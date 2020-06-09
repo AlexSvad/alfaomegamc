@@ -97,14 +97,14 @@ nav{
   font-size: 1.8rem;
 }
 
-.brand{
+.marca{
   font-size: 5rem;
   font-weight: 300;
   transform: translateX(-100rem);
   animation: slideIn .5s forwards;
 }
 
-.brand span{
+.marca span{
   color: crimson;
 }
 
@@ -231,7 +231,7 @@ nav ul li a:hover::after{
     font-size: 1.7rem;
   }
 
-  .brand{
+  .marca{
     font-size: 5rem;
   }
   
@@ -357,9 +357,6 @@ p {
   }
 }
 
-/* @offsetSize * 2 means the content won't appear to move at all. Set to a lower value for squishing effects. */
-/*////////////////////////////////////////*/
-/* Layout */
 .panels {
   width: 100%;
   height: 100%;
@@ -386,8 +383,7 @@ p {
   cursor: pointer;
   text-decoration: none;
 }
-/*////////////////////////////////////////*/
-/* Image/Text Container */
+
 .panel__content {
   width: 100%;
   height: 100%;
@@ -410,8 +406,7 @@ p {
   opacity: 0.5;
   transition: opacity 1s cubic-bezier(0.6, 0, 0.2, 1);
 }
-/*////////////////////////////////////////*/
-/* Title */
+
 .panel__title {
   pointer-events: auto;
   color: #FFF;
@@ -439,14 +434,9 @@ p {
   transition: all 1s cubic-bezier(0.6, 0, 0.2, 1);
   transition-property: opacity, transform;
 }
-/*////////////////////////////////////////*/
-/* Hover States */
 .panel {
   transform: translate3d(0, 0, 0);
   transition: transform 1s cubic-bezier(0.6, 0, 0.2, 1);
-  /* Inactive panel */
-  /* Override styles for an inactive panel AFTER the hovered panel */
-  /* Active panel */
 }
 .panel .panel__content {
   transform: translateX(10%);
@@ -491,12 +481,7 @@ p {
   opacity: 1;
   transform: scale(1);
 }
-/*////////////////////////////////////////*/
-/* Vertical layout */
 .panels--stacked {
-  /* Inactive panel */
-  /* Override styles for an inactive panel AFTER the hovered panel */
-  /* Active panel */
 }
 .panels--stacked .panels__container {
   width: 100%;
@@ -536,12 +521,8 @@ p {
 .panels--stacked .panel:hover .panel__content {
   transform: translate3d(0, 0, 0);
 }
-/* Responsive */
 @media (max-width: 550px) {
   .panels {
-    /* Inactive panel */
-    /* Override styles for an inactive panel AFTER the hovered panel */
-    /* Active panel */
   }
   .panels .panels__container {
     width: 100%;
@@ -582,8 +563,7 @@ p {
     transform: translate3d(0, 0, 0);
   }
 }
-/*////////////////////////////////////////*/
-/* Specific Design Setup */
+
 .panel__title {
   font-size: 2em;
   letter-spacing: 0.1em;
@@ -607,8 +587,6 @@ p {
   background-size: cover;
   overflow: hidden;
 }
-
-
 
 .photo-text{
   text-shadow: 0 0 13px #0050ff;
@@ -728,7 +706,7 @@ p {
 }
 .redes ul li {
   list-style:none;
-  display: inline-block; /* Get all images to show in a row */
+  display: inline-block;
   text-align:center; 
   padding-top: 20px;
 }
