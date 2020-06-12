@@ -570,6 +570,191 @@ p {
   }
 }
 
+#cursos h2 {
+  font-family: "Product Sans";
+  text-shadow: 0 0 1px #0050ff;
+  font-size: 8vmin;
+  text-align: center;
+  mix-blend-mode: hard-light;
+  color: #000;
+}
+
+#cursos h3 {
+  font-weight: 900;
+  margin: 0 0 1rem;
+  padding: 0;
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 3rem 0;
+  font-weight: 900;
+  color: #000;
+  position: relative;
+  text-shadow: 0 0 1px #0050ff;
+}
+
+#cursos p {
+    text-shadow: 0 0 13px #0050ff;
+    font-size: calc(2em + 0.2vw);
+    font-weight: 400;
+    line-height: 2;
+    color: #000;
+    text-shadow: 0 0 1px #0050ff;
+}
+
+#cursos .text-center {
+  text-align: center;
+}
+
+#cursos .color-white {
+  color: #fff;
+}
+
+#cursos .box-container {
+  position:relative;
+  align-items: center;
+  display:block;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 35px 15px;
+  width: 100%;
+  text-align:center; 
+}
+
+@media screen and (min-width:1380px) {
+  #cursos .box-container {
+    flex-direction: row;
+  }
+}
+
+#cursos .box-item {
+  display: inline-block;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  width: 415px;
+  margin-bottom: 13px;
+  margin-right: 13px;
+  max-width: 100%;
+  text-align:center; 
+}
+
+#cursos .flip-box {
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+#cursos .flip-box-front,
+#cursos .flip-box-back {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  min-height: 475px;
+  -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#cursos .flip-box-front {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+#cursos .flip-box:hover .flip-box-front {
+  -ms-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+#cursos .flip-box-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+#cursos .flip-box:hover .flip-box-back {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+#cursos .flip-box .inner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 60px;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  z-index: 2;
+  
+  transform: translateY(-50%) translateZ(60px) scale(.94);
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
+  -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+  top: 50%;
+}
+
+#cursos .flip-box-header {
+  font-size: 34px;
+}
+
+#cursos .flip-box p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+#cursos .flip-box-img {
+  margin-top: 25px;
+}
+
+#cursos .flip-box-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+#cursos .flip-box-button:hover {
+
+  background-color: #f4511e;
+  background: #0050ff;
+  border-color: #0050ff !important;
+  transition: all 1s ease 0s;
+}
+
+
+
+
+
+
+
 .photo{
   width: 100%;
   height: 700px;
