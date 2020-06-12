@@ -730,9 +730,9 @@ p {
 
 #cursos .flip-box-button {
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #002BD6;
   border-radius: 2px;
-  color: #fff;
+  color: #002BD6;
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
@@ -743,9 +743,9 @@ p {
 
 #cursos .flip-box-button:hover {
 
-  background-color: #f4511e;
-  background: #0050ff;
-  border-color: #0050ff !important;
+  background-color: #adbeff;
+  background: #adbeff;
+  border-color: #002BD6 !important;
   transition: all 1s ease 0s;
 }
 
