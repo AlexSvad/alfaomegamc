@@ -600,6 +600,203 @@ p {
   position: relative;
   z-index: 999;
 }
+
+.form {
+  width: 400px;
+  margin:auto;
+  background: white;
+  border-radius: 3px;
+  margin-top: 5em;
+  margin-bottom: 6em;
+  padding: 1.25em;
+}
+.btn-primary {
+  box-shadow: 0; 
+  border: none; 
+  background-color: #48c9b0;
+  border-color: #48c9b0;
+  color: #ffffff;
+  outline: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: all .5s;
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  width: 30%;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 1.44em;
+  margin-bottom: .55em;
+  display: inherit;
+}
+
+.btn-primary:hover {
+  background-color: #1ABC9C;
+}
+
+.form-group {
+  position: relative;
+  opacity: 1;
+  transition: .6s;
+}
+
+.input-field-icon {
+  color: #bfc9ca;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  transition: .6s;
+}
+
+.form-control {
+  transition: opacity .6s;
+  opacity: 1;
+  border: 0;
+  border-bottom: 2px solid #002BD6;
+  border-radius: 0;
+  background: white;
+  font-size: 25px;
+  line-height: 1.467;
+  padding: 4px;
+  height: 42px;
+  -webkit-appearance: none;
+}
+
+input, textarea {
+  transition: all 800ms;
+  resize: none;  /* removes the resize handle */
+  overflow: auto; /* removes default scrolling bars in IE */
+  outline:none; 
+  font-family:inherit; 
+  box-sizing:border-box;
+  width: 100%;
+  padding: 0px 4px;
+  color: #34495e;
+  margin-top: 1.25em;
+}
+
+
+.has-error input, .has-error textarea {
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.has-error .input-field-icon {
+  color: #e74c3c;
+}
+
+.has-success input, .has-success textarea {
+  color: #2ecc71;
+  border-color: #2ecc71;
+}
+
+.has-success .input-field-icon {
+  color: #2ecc71;
+}
+
+
+input:focus, textarea:focus {
+  border-color: #48c9b0;
+  color: #34495e;
+}
+
+input:focus + .input-field-icon {
+  color: #34495e;
+}
+
+textarea.form-control {
+  height: 120px;
+  transition: .6s;
+}
+
+textarea.form-control:focus {
+  height: 200px;
+  border-color: #48c9b0;
+}
+/*
+#contacto {
+  padding: 100px 0 100px 0;
+}
+#contacto .container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+/* Para + de 400px */
+/*
+@media (min-width: 400px) {
+#contacto .container {
+  width: 85%;
+  padding: 0;
+}
+}
+/* Para + de 550px */
+/*
+@media (min-width: 550px) {
+#contacto .container {
+  width: 80%;
+}
+#contacto .container:after, .row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#contacto .u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+#contacto .u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+#contacto .u-pull-right {
+  float: right;
+}
+#contacto .u-pull-left {
+  float: left;
+}
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #c9ffed;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  outline: none;
+}
+textarea {
+  min-height: 250px;
+}
+input[type="submit"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background: #2dba97;
+  border-radius: 0px;
+  border: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  float: right;
+}
+input[type="submit"]:hover {
+  background: #78f0c8;
+  text-decoration: none;
+}*/
 .redes{
   margin-top: 133px;
 

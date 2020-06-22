@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Ubicación</title>
+  <title>Contacto</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -24,7 +24,7 @@
     }
   }
   </script>
-  <meta name="description" content="Cómo llegar a la fundación Alfa Omega MC">
+  <meta name="description" content="Página de contacto de la fundación Alfa Omega MC">
   <meta name="keywords" content="alfa,omega,mc,fundación,difusión,conocimiento,amor,meditación">
   <meta name="author" content="AS">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no">
@@ -49,6 +49,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./style-act.css" type="text/css">
   <script src="scripts/jquery-3.4.1.min.js"></script>
+
 </head>
 <body>
 <header>
@@ -70,24 +71,91 @@
           </nav>
       </div>
 </header>
-<h2>Cómo llegar</h2>
-  <div class="mapa">
-    <div class="mapita">
-    <a href="https://maps.app.goo.gl/3xDYWrpMrvuYWX8f9"><h4>Bolivia 5451 - Villa Pueyrredón - Capital Federal <i class="fa fa-map-marker" aria-hidden="true"></i></h4></a>
-    <h4>EN TREN: Estación PUEYRREDÓN de la Línea MITRE: Retiro - José León Suárez (4 cuadras)</h4>
-    <h4>LÍNEAS DE COLECTIVOS: 169 - 107 - 175 - 127 - 110 - 114 - 111 - 140 - 127 y cualquier línea que circule por la Gral. Paz, ya que la Fundación está a 8 cuadras de la misma.</h4>
-    </div>
-    <div class="mapita">
-      <div class="google-maps">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13140.10930651295!2d-58.5040835!3d-34.5781751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x45380244908a6cb9!2sFundaci%C3%B3n%20Alfa%20Omega%20MC!5e0!3m2!1ses!2sar!4v1591404184943!5m2!1ses!2sar" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<section id="contacto">
+ <h2>Contacto</h2>
+  <div class="form">
+     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdiPdllsLorD3Mi4SUjxrNEWRO_p6GiMASsHErnfuah8p8-sg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Nombre" name="entry.2005620554" id="entry.2005620554" />
       </div>
-    </div>
-    <div class="mapita">
-      <div class="google-maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1591404430845!6m8!1m7!1sZW1yP9cYWIm-7R88G9MUCA!2m2!1d-34.57825450799639!2d-58.50416725522276!3f33.60128900961901!4f13.941609074644504!5f0.4000000000000002" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Apellido" name="entry.1045781291" id="entry.1045781291" />
       </div>
-    </div>
+      <div class="form-group">
+        <textarea class="form-control" placeholder="Consulta" name="entry.1065046570" id="entry.1065046570" ></textarea>
+      </div>
+      <button class="btn btn-primary btn-lg btn-block" value="Submit" type="submit">ENVIAR</button>
+    </form>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
   </div>
+</section>
+
+<!--
+    <section id="contacto">         
+        <div class="container">
+          <form class="contacto-form">
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleRecipientInput">Nombre</label>
+                <input class="u-full-width" id="nombre" placeholder="Nombre" type="text">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Apellido</label>
+                <input class="u-full-width" id="apellido" placeholder="Apellido" type="text">
+              </div>
+             </div>
+             <div class="row">
+              <div class="six columns">
+                <label for="exampleRecipientInput">Ciudad</label>
+                <input class="u-full-width" id="ciudad" placeholder="Ciudad" type="text">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Dirección</label>
+                <input class="u-full-width" id="direccion" placeholder="Dirección" type="text">
+              </div>
+             </div>
+              <div class="row">
+              <div class="six columns">
+                <label for="exampleEmailInput">E-mail</label>
+                <input class="u-full-width" id="mail" placeholder="E-mail" type="email">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Teléfono</label>
+                <input class="u-full-width" id="telefono" placeholder="Teléfono" type="tel">
+              </div>
+             </div>
+            <div class="row">
+              <label for="exampleMessage">Consulta</label>
+              <textarea id="mensaje" placeholder="Escriba aquí su consulta, gracias!" class="u-full-width"></textarea>
+              <input onclick="sendMail(); return false;" class="button-primary" type="submit" value="Enviar">
+            </div>
+          </form>
+        </div>
+      </section>
+-->
+<!--
+
+Andaba 
+<section id="contacto">
+ <h2>Contacto</h2>
+  <div class="form">
+     <form class="contacto-form" action="mailto:contacto@alfaomegamc.com" enctype="text/plain">
+      <div class="form-group">
+        <label class="input-field-icon icon-user" for="Nombre"></label>
+        <input type="text" class="form-control" value="" placeholder="Nombre" id="nombre" />
+      </div>
+      <div class="form-group">
+        <label class="input-field-icon icon-email" for="Apellido"></label>
+        <input type="text" class="form-control" value="" placeholder="Apellido" id="apellido" />
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" value="" placeholder="Consulta" id="mensaje" rows="1"></textarea>
+      </div>
+      <button onclick="sendMail(); return true;" class="btn btn-primary btn-lg btn-block" type="submit" value="Enviar">ENVIAR</button>
+    </form>
+  </div>
+</section>
+-->
 <section class="photo">
   <div class="photo-text">
   <h4>FUNDACIÓN ALFA OMEGA MC</h4>
@@ -188,5 +256,12 @@
       </div>
   </footer>
   <script type="text/javascript" src="./script.js"></script>
+  <script type="text/javascript">var submitted=false;</script>
+  <script type="text/javascript">
+  $('#gform').on('submit', function(e) {
+    $('#gform *').fadeOut(300);
+    $('#gform').prepend("<h3>Mensaje enviado!!<br><br>Gracias</h3>");
+    });
+  </script>
 </body>
 </html>
