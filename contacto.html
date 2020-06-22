@@ -49,7 +49,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./style-act.css" type="text/css">
   <script src="scripts/jquery-3.4.1.min.js"></script>
-
+  <script type="text/javascript">var submitted=false;</script>
 </head>
 <body>
 <header>
@@ -89,73 +89,6 @@
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
   </div>
 </section>
-
-<!--
-    <section id="contacto">         
-        <div class="container">
-          <form class="contacto-form">
-            <div class="row">
-              <div class="six columns">
-                <label for="exampleRecipientInput">Nombre</label>
-                <input class="u-full-width" id="nombre" placeholder="Nombre" type="text">
-              </div>
-              <div class="six columns">
-                <label for="exampleRecipientInput">Apellido</label>
-                <input class="u-full-width" id="apellido" placeholder="Apellido" type="text">
-              </div>
-             </div>
-             <div class="row">
-              <div class="six columns">
-                <label for="exampleRecipientInput">Ciudad</label>
-                <input class="u-full-width" id="ciudad" placeholder="Ciudad" type="text">
-              </div>
-              <div class="six columns">
-                <label for="exampleRecipientInput">Dirección</label>
-                <input class="u-full-width" id="direccion" placeholder="Dirección" type="text">
-              </div>
-             </div>
-              <div class="row">
-              <div class="six columns">
-                <label for="exampleEmailInput">E-mail</label>
-                <input class="u-full-width" id="mail" placeholder="E-mail" type="email">
-              </div>
-              <div class="six columns">
-                <label for="exampleRecipientInput">Teléfono</label>
-                <input class="u-full-width" id="telefono" placeholder="Teléfono" type="tel">
-              </div>
-             </div>
-            <div class="row">
-              <label for="exampleMessage">Consulta</label>
-              <textarea id="mensaje" placeholder="Escriba aquí su consulta, gracias!" class="u-full-width"></textarea>
-              <input onclick="sendMail(); return false;" class="button-primary" type="submit" value="Enviar">
-            </div>
-          </form>
-        </div>
-      </section>
--->
-<!--
-
-Andaba 
-<section id="contacto">
- <h2>Contacto</h2>
-  <div class="form">
-     <form class="contacto-form" action="mailto:contacto@alfaomegamc.com" enctype="text/plain">
-      <div class="form-group">
-        <label class="input-field-icon icon-user" for="Nombre"></label>
-        <input type="text" class="form-control" value="" placeholder="Nombre" id="nombre" />
-      </div>
-      <div class="form-group">
-        <label class="input-field-icon icon-email" for="Apellido"></label>
-        <input type="text" class="form-control" value="" placeholder="Apellido" id="apellido" />
-      </div>
-      <div class="form-group">
-        <textarea class="form-control" value="" placeholder="Consulta" id="mensaje" rows="1"></textarea>
-      </div>
-      <button onclick="sendMail(); return true;" class="btn btn-primary btn-lg btn-block" type="submit" value="Enviar">ENVIAR</button>
-    </form>
-  </div>
-</section>
--->
 <section class="photo">
   <div class="photo-text">
   <h4>FUNDACIÓN ALFA OMEGA MC</h4>
@@ -256,12 +189,5 @@ Andaba
       </div>
   </footer>
   <script type="text/javascript" src="./script.js"></script>
-  <script type="text/javascript">var submitted=false;</script>
-  <script type="text/javascript">
-  $('#gform').on('submit', function(e) {
-    $('#gform *').fadeOut(300);
-    $('#gform').prepend("<h3>Mensaje enviado!!<br><br>Gracias</h3>");
-    });
-  </script>
 </body>
 </html>
