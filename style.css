@@ -571,6 +571,7 @@ p {
 }
 
 #cursos h2 {
+  padding-top: 17px;
   font-family: "Product Sans";
   text-shadow: 0 0 1px #0050ff;
   font-size: 8vmin;
