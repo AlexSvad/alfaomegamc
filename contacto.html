@@ -74,17 +74,20 @@
 <section id="contacto">
  <h2>Contacto</h2>
   <div class="form">
-     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdiPdllsLorD3Mi4SUjxrNEWRO_p6GiMASsHErnfuah8p8-sg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfhTXPXF-AhphJwdwwgrKhvhJp9oQVXpuPck4lAx1UURwGhKg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Nombre" name="entry.2005620554" id="entry.2005620554" />
+        <input type="text" class="form-control" placeholder="Nombre" name="entry.1884265043" id="entry.1884265043" required/>
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Apellido" name="entry.1045781291" id="entry.1045781291" />
+        <input type="text" class="form-control" placeholder="Apellido" name="entry.1661093019" id="entry.1661093019" required/>
       </div>
       <div class="form-group">
-        <textarea class="form-control" placeholder="Consulta" name="entry.1065046570" id="entry.1065046570" ></textarea>
+        <input type="email" class="form-control" placeholder="Mail" name="entry.778021240" id="entry.778021240" required/>
       </div>
-      <button class="btn btn-primary btn-lg btn-block" value="Submit" type="submit">ENVIAR</button>
+      <div class="form-group">
+        <textarea class="form-control" placeholder="Consulta" name="entry.2137746760" id="entry.2137746760" required></textarea>
+      </div>
+      <button id="contact-send" class="btn btn-primary btn-lg btn-block" value="Submit" type="submit">ENVIAR</button>
     </form>
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
   </div>
