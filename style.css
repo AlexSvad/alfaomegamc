@@ -569,9 +569,8 @@ p {
     font-size: 1.25em;
   }
 }
-
 #cursos h2 {
-  padding-top: 17px;
+  padding-top: 33px;
   font-family: "Product Sans";
   text-shadow: 0 0 1px #0050ff;
   font-size: 8vmin;
@@ -579,7 +578,6 @@ p {
   mix-blend-mode: hard-light;
   color: #000;
 }
-
 #cursos h3 {
   font-weight: 900;
   margin: 0 0 1rem;
@@ -592,7 +590,6 @@ p {
   position: relative;
   text-shadow: 0 0 1px #0050ff;
 }
-
 #cursos p {
     text-shadow: 0 0 13px #0050ff;
     font-size: calc(2em + 0.2vw);
@@ -601,7 +598,6 @@ p {
     color: #000;
     text-shadow: 0 0 1px #0050ff;
 }
-
 #cursos .text-center {
   text-align: center;
 }
@@ -609,7 +605,6 @@ p {
 #cursos .color-white {
   color: #fff;
 }
-
 #cursos .box-container {
   position:relative;
   align-items: center;
@@ -620,13 +615,11 @@ p {
   width: 100%;
   text-align:center; 
 }
-
 @media screen and (min-width:1380px) {
   #cursos .box-container {
     flex-direction: row;
   }
 }
-
 #cursos .box-item {
   display: inline-block;
   position: relative;
@@ -637,7 +630,6 @@ p {
   max-width: 100%;
   text-align:center; 
 }
-
 #cursos .flip-box {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -645,7 +637,6 @@ p {
   perspective: 1000px;
   -webkit-perspective: 1000px;
 }
-
 #cursos .flip-box-front,
 #cursos .flip-box-back {
   background-size: cover;
@@ -658,7 +649,6 @@ p {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 #cursos .flip-box-front {
   -ms-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
@@ -667,7 +657,6 @@ p {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
 #cursos .flip-box:hover .flip-box-front {
   -ms-transform: rotateY(-180deg);
   -webkit-transform: rotateY(-180deg);
@@ -676,13 +665,11 @@ p {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
 #cursos .flip-box-back {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -690,7 +677,6 @@ p {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
 #cursos .flip-box:hover .flip-box-back {
   -ms-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
@@ -699,7 +685,6 @@ p {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
 #cursos .flip-box .inner {
   position: absolute;
   left: 0;
@@ -715,20 +700,16 @@ p {
   -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
   top: 50%;
 }
-
 #cursos .flip-box-header {
   font-size: 34px;
 }
-
 #cursos .flip-box p {
   font-size: 20px;
   line-height: 1.5em;
 }
-
 #cursos .flip-box-img {
   margin-top: 25px;
 }
-
 #cursos .flip-box-button {
   background-color: transparent;
   border: 2px solid #002BD6;
