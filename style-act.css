@@ -168,7 +168,7 @@ nav ul li a:hover::after{
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1060px){
 
   .menu-toggle{
     display: block;
@@ -376,7 +376,8 @@ p {
   justify-content: space-around;
   padding: 35px 15px;
   width: 100%;
-  text-align:center; 
+  text-align:center;
+
 }
 
 @media screen and (min-width:1380px) {
@@ -393,7 +394,7 @@ p {
   margin-bottom: 13px;
   margin-right: 13px;
   max-width: 100%;
-  text-align:center; 
+  text-align:center;
 }
 
 .flip-box {
@@ -440,7 +441,6 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -467,7 +467,6 @@ p {
   -webkit-perspective: inherit;
   perspective: inherit;
   z-index: 2;
-  
   transform: translateY(-50%) translateZ(60px) scale(.94);
   -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
   -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
@@ -501,7 +500,6 @@ p {
 }
 
 .flip-box-button:hover {
-
   background-color: #f4511e;
   background: #0050ff;
   border-color: #0050ff !important;

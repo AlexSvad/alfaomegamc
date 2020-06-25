@@ -193,7 +193,7 @@ nav ul li a:hover::after{
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1060px){
 
   .menu-toggle{
     display: block;
@@ -318,6 +318,24 @@ p {
   width: 28px;
   height: 19px;
   background-image: url(fotos/flecini.png);
+}
+
+@media (min-width: 901px) and (max-width:1380px) {
+  .flecini {
+    left: 48.4%;
+  }
+}
+
+@media (max-width: 900px) {
+  .flecini {
+    left: 47.7%;
+  }
+}
+
+@media (max-width: 650px) {
+  .flecini {
+    left: 47%;
+  }
 }
 
 .flecfin {
