@@ -36,7 +36,15 @@ open.addEventListener("click", function(){
         changeIcon = true;
     }
 });
-$('#gform').on('submit', function(e) {
-$('#gform *').fadeOut(300);
-$('#gform').prepend("<h3>Mensaje enviado!!<br><br>Gracias</h3>");
+var ifConnected = window.navigator.onLine;
+if (ifConnected) {
+  $('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(300);
+  $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");
 });
+} else {
+  $('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(300);
+  $('#gform').prepend("<h3>Sin internet!<br></h3>");
+  });
+}
