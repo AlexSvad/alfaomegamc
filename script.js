@@ -36,7 +36,6 @@ open.addEventListener("click", function(){
         changeIcon = true;
     }
 });
-
 $('#gform').on('submit', function(e) {
 $('#gform *').fadeOut(300);
 $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");
