@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /fotos/curso1.jpg
+Disallow: /fotos/curso2.jpg
+Disallow: /fotos/actividades/alom1.jpeg
+Disallow: /fotos/actividades/alom2.jpeg
+Disallow: /fotos/actividades/musica1.jpg
