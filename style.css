@@ -731,7 +731,7 @@ p {
 #cursos .flip-box-button {
   background-color: transparent;
   border: 2px solid #002BD6;
-  border-radius: 2px;
+  border-radius: 4.5px;
   color: #002BD6;
   --hover: #002BD6;
   cursor: pointer;
@@ -752,8 +752,8 @@ p {
     }
 }
 .pulse {
-    --color: #0050ff;
-    --hover: #0050ff;
+    --color: #002BD6;
+    --hover: #002BD6;
 }
 .pulse:hover,
 .pulse:focus {
@@ -767,9 +767,9 @@ p {
 }
 button {
     background: #fff;
-    border: 2px solid #0050ff;
+    border: 2px solid #002BD6;
     border-radius: 4.5px;
-    border-color: #0050ff;
+    border-color: #002BD6;
     color: white;
     font: inherit;
     line-height: 1;
