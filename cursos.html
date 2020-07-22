@@ -7,20 +7,37 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Alfa Omega MC",
-    "url": "alfaomegamc.com.ar",
-    "email": "contacto@alfaomegamc.com.ar",
-    "image": [ "https://alfaomegamc.com.ar/fotos/app-nativa/ao180.png" ],
-    "description": "Dedicada a la difusión de conocimiento",
-    "logo": "https://alfaomegamc.com.ar/fotos/app-nativa/ao180.png",
-    "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Bolivia 5451 - Villa Pueyrredón",
-    "addressLocality": "Ciudad Autónoma de Buenos Aires",
-    "addressRegion": "Buenos Aires",
-    "addressCountry": "AR",
-    "postalCode": "C1419 DVE"
+    "@type": "Event",
+    "name": "La Filosofía Tolteca",
+    "startDate": "2020-07-25T11:30:00-03:00",
+    "endDate": "2020-07-25T15:30-03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://alfaomegamc.com.ar/cursos/"
+      },
+    "image": [
+      "https://alfaomegamc.com.ar/fotos/cursos/tolteca.jpg",
+      "https://alfaomegamc.com.ar/fotos/cursos/tolteca1024.jpg"
+     ],
+    "description": "La Filosofía Tolteca. Una enseñanza ancestral para esta etapa de la humanidad.",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://alfaomegamc.com.ar/cursos/cursos.html#tolteca",
+      "price": "0",
+      "priceCurrency": "$",
+      "availability": "https://alfaomegamc.com.ar/contacto",
+      "validFrom": "2020-07-25T11:30"
+    },
+    "performer": {
+      "@type": "Person",
+      "name": "Claudio"
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Alfa Omega MC",
+      "url": "https://alfaomegamc.com.ar"
     }
   }
   </script>
@@ -100,7 +117,7 @@
         </div>
         <div class="flip-box-back text-center">
           <div class="inner color-white">
-            <h3 class="flip-box-header">La Filosofía Tolteca</h3>
+            <h3 class="flip-box-header" id="tolteca">La Filosofía Tolteca</h3>
             <p>Una enseñanza ancestral para esta etapa de la humanidad</p>
             <p>Sábado 25 de julio 2020 de 11:30 a 15:30 hs</p>
             <a href="contacto.html" target="_blank"><button class="flip-box-button">MÁS INFO</button></a>
