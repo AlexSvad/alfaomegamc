@@ -36,6 +36,17 @@ open.addEventListener("click", function(){
         changeIcon = true;
     }
 });
+function getAction(form){
+    var v = grecaptcha.getResponse();
+    if(v.length == 0){
+        document.getElementById('captcha').innerHTML="Captcha incorrecto";
+        return false;
+    }
+    else{
+        document.getElementById('captcha').innerHTML="Captcha correcto";
+        return true; 
+    }
+}
 $('#gform').on('submit', function(e) {
 $('#gform *').fadeOut(300);
 $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");
