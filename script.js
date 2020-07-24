@@ -48,16 +48,25 @@ function getAction(form){
         return true; 
     }
 }*/
-var submitted=false;
 $('#gform').on('submit', function(e) {
   var res = grecaptcha.getResponse();
   if(res.length == 0) { 
     alert("Captcha no verificado!"); 
     evt.preventDefault();
+    val=false;
     return false;
   }
   else{
-    $('#gform *').fadeOut(300);
-    $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");
+    val=true;
   }
 });
+
+function envioForm(){
+    if(val=true){
+    submitted=true;
+    $('#gform *').fadeOut(300);
+    $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");  
+    return true;
+    }
+    else return false;
+}
