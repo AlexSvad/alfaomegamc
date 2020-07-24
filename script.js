@@ -58,11 +58,12 @@ $('#gform').on('submit', function(e) {
   }
   else{
     val=true;
+    return true;
   }
 });
 
 function envioForm(){
-    if(val=true){
+    if(val==true){
     submitted=true;
     $('#gform *').fadeOut(300);
     $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");  
