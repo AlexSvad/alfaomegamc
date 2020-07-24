@@ -36,6 +36,7 @@ open.addEventListener("click", function(){
         changeIcon = true;
     }
 });
+/*
 function getAction(form){
     var v = grecaptcha.getResponse();
     if(v.length == 0){
@@ -46,8 +47,16 @@ function getAction(form){
         document.getElementById('captcha').innerHTML="Captcha correcto";
         return true; 
     }
-}
+}*/
 $('#gform').on('submit', function(e) {
-$('#gform *').fadeOut(300);
-$('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");
+  var res = grecaptcha.getResponse();
+  if(res.length == 0) { 
+    alert("Captcha no verificado"); 
+    evt.preventDefault();
+    return false;
+  }
+  else{
+    $('#gform *').fadeOut(300);
+    $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");
+  }
 });
