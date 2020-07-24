@@ -48,10 +48,11 @@ function getAction(form){
         return true; 
     }
 }*/
+var submitted=false;
 $('#gform').on('submit', function(e) {
   var res = grecaptcha.getResponse();
   if(res.length == 0) { 
-    alert("Captcha no verificado"); 
+    alert("Captcha no verificado!"); 
     evt.preventDefault();
     return false;
   }
