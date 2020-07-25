@@ -36,32 +36,64 @@ open.addEventListener("click", function(){
         changeIcon = true;
     }
 });
+
 /*
-function getAction(form){
+function envioForm(){
     var v = grecaptcha.getResponse();
     if(v.length == 0){
+        e.preventDefault();
+        $("gform").attr("action","");
         document.getElementById('captcha').innerHTML="Captcha incorrecto";
         return false;
     }
     else{
         document.getElementById('captcha').innerHTML="Captcha correcto";
-        return true; 
+        submitted=true;
+        $('#gform *').fadeOut(300);
+        $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");  
+        return true;
     }
 }*/
+/*
 $('#gform').on('submit', function(e) {
   var res = grecaptcha.getResponse();
   if(res.length == 0) { 
     alert("Captcha no verificado!"); 
     evt.preventDefault();
-    val=false;
-    return false;
-  }
-  else{
-    val=true;
-    return true;
   }
 });
+*/
 
+$('#gform').on('submit', function(e) {
+    var v = grecaptcha.getResponse();
+    if(v.length == 0){
+        alert("Captcha no verificado!"); 
+        e.preventDefault();
+        return false;
+    }
+    else{
+        submitted=true;
+        $('#gform *').fadeOut(300);
+        $('#gform').prepend("<h3>Mensaje enviado!<br><br>Gracias</h3>");  
+        return true;
+    }
+});
+/*
+
+$("gform").submit(function(e){
+ e.preventDefault();
+/*
+  var res = grecaptcha.getResponse();
+  if(res.length == 0) { 
+    alert("Captcha no verificado!"); 
+    evt.preventDefault();
+  }
+
+    */
+
+
+
+/*
 function envioForm(){
     if(val==true){
     submitted=true;
@@ -70,4 +102,4 @@ function envioForm(){
     return true;
     }
     else return false;
-}
+}*/

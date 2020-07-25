@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./style-act.css" type="text/css">
   <script src="scripts/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript">var submitted=false, val=false;</script>
+  <script type="text/javascript">var submitted=false;</script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -55,7 +55,7 @@
 <section id="contacto">
  <h2>Contacto</h2>
   <div class="form">
-     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfhTXPXF-AhphJwdwwgrKhvhJp9oQVXpuPck4lAx1UURwGhKg/formResponse?" target="hidden_iframe" onsubmit="envioForm()">
+     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfhTXPXF-AhphJwdwwgrKhvhJp9oQVXpuPck4lAx1UURwGhKg/formResponse?" target="hidden_iframe">
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Nombre" name="entry.1884265043" id="entry.1884265043" required/>
       </div>
@@ -70,7 +70,6 @@
       </div>
         <br/>
         <div class="g-recaptcha" data-sitekey="6LdZOK0ZAAAAAACpppZmE_lrGQS6HJ66RSujrx-y"></div>
-        <!--<span id="captcha" style="margin-left:100px;color:red" />-->
       <button id="contact-send" class="btn btn-primary btn-lg btn-block" value="Submit" type="submit">ENVIAR</button>
     </form>
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
