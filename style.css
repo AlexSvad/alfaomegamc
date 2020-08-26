@@ -29,7 +29,7 @@ header a{
    font-size: 2vmax;
 }
 
-video { 
+video {
     position: absolute;
     top: 0;
     left: 0;
@@ -251,7 +251,7 @@ nav ul li a:hover::after{
   .marca{
     font-size: 5rem;
   }
-  
+
   .overlay.menu-open,
   nav.menu-open{
   position: fixed;
@@ -616,7 +616,7 @@ p {
   padding-top: 33px;
   font-family: "Product Sans";
   text-shadow: 0 0 1px #0050ff;
-  font-size: 8vmin;
+  font-size: 6vmin;
   text-align: center;
   mix-blend-mode: hard-light;
   color: #000;
@@ -656,7 +656,7 @@ p {
   justify-content: space-around;
   padding: 35px 15px;
   width: 100%;
-  text-align:center; 
+  text-align:center;
 }
 @media screen and (min-width:1380px) {
   #cursos .box-container {
@@ -671,7 +671,7 @@ p {
   margin-bottom: 13px;
   margin-right: 13px;
   max-width: 100%;
-  text-align:center; 
+  text-align:center;
 }
 #cursos .flip-box {
   -ms-transform-style: preserve-3d;
@@ -685,7 +685,7 @@ p {
   background-size: cover;
   background-position: center;
   border-radius: 8px;
-  min-height: 475px;
+  min-height: 360px;
   -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
   transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
   -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
@@ -737,18 +737,17 @@ p {
   -webkit-perspective: inherit;
   perspective: inherit;
   z-index: 2;
-  
   transform: translateY(-50%) translateZ(60px) scale(.94);
   -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
   -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
   top: 50%;
 }
 #cursos .flip-box-header {
-  font-size: 33px;
+  font-size: 3vh;
 }
 #cursos .flip-box p {
-  font-size: 20px;
-  line-height: 1.5em;
+  font-size: 2.6vh;
+  line-height: 1em;
 }
 #cursos .flip-box-img {
   margin-top: 25px;
@@ -917,12 +916,12 @@ button:hover, button:focus {
   margin:0;
   padding:0;
   display:block;
-  text-align:center; 
+  text-align:center;
 }
 .redes ul li {
   list-style:none;
   display: inline-block;
-  text-align:center; 
+  text-align:center;
   padding-top: 20px;
 }
 .redes ul li a {
@@ -999,37 +998,37 @@ button:hover, button:focus {
 .redes .facebook:hover {
   color: #3c5898;
 }
-.redes .facebook:hover span { 
+.redes .facebook:hover span {
   background: #002BD6;
 }
 .redes .blog:hover {
   color: #fc4f08;
 }
-.redes .blog:hover span { 
+.redes .blog:hover span {
   background: #fc4f08;
 }
 .redes .instagram:hover {
-  color: #002BD6; 
+  color: #002BD6;
 }
-.redes .instagram:hover span { 
+.redes .instagram:hover span {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 .redes .google:hover {
   color: #0F9D58;
 }
-.redes .google:hover span { 
+.redes .google:hover span {
   background: #0F9D58;
 }
 .redes .youtube:hover {
   color: #ff0000;
 }
-.redes .youtube:hover span { 
+.redes .youtube:hover span {
   background: #ff0000;
 }
 .redes .mail:hover {
   color: #002BD6;
 }
-.redes .mail:hover span { 
+.redes .mail:hover span {
   background: #002BD6;
 }
 .redes ul li a .blog {
