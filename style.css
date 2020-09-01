@@ -776,6 +776,30 @@ p {
         box-shadow: 0 0 0 0 var(--hover);
     }
 }
+#cursos .flip-box-button-apunte {
+  background-color: transparent;
+  border: 2px solid #fc4f08;
+  border-radius: 4.5px;
+  color: #fc4f08;
+  --hover: #fc4f08;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+#cursos .flip-box-button-apunte:hover,
+#cursos .flip-box-button-apunte:focus {
+  	animation: flip-box-button-apunte 1s;
+    box-shadow: 0 0 0 1.72em rgba(255, 255, 255, 0);
+}
+@keyframes flip-box-button-apunte {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
 .pulse {
     --color: #002BD6;
     --hover: #002BD6;
