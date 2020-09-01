@@ -80,10 +80,10 @@
    margin-right: auto;
    background-size: cover;
    background-repeat: no-repeat;
-	 background-image: url('./toltecayolt.png');
+	 background-image: url('./Toltecayotl.png');
 }
  .dark .hero {
-	 background-image: url('./toltecayolt180.png');
+	 background-image: url('./Toltecayotl180.png');
 }
  .dark h2, .dark p {
 	 color: #fff;
