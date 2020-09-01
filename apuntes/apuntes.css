@@ -1,78 +1,78 @@
- body {
+body {
 	 transition: all 300ms ease;
 }
- body.dark {
+body.dark {
 	 background-color: #161d26;
 }
- .toggle {
+.toggle {
 	 position: fixed;
 	 top: 90%;
 	 right: 0;
 	 width: 60px;
    z-index: 33;
 }
- .toggle .mask {
+.toggle .mask {
 	 width: 60px;
 	 height: 60px;
 	 overflow: hidden;
 }
- .toggle .mask .icon-wrap {
+.toggle .mask .icon-wrap {
 	 padding: 15px;
 	 transition: all 300ms 400ms ease;
 }
- .toggle .mask .icon-wrap:last-child {
+.toggle .mask .icon-wrap:last-child {
 	 transform: translatey(-60px);
 }
- .toggle .mask .icon {
+.toggle .mask .icon {
 	 width: 30px;
 	 height: 30px;
 	 border-radius: 50%;
 }
- .toggle .mask .active {
+.toggle .mask .active {
 	 transition-delay: 100ms;
 }
- .toggle .mask .active:first-child {
+.toggle .mask .active:first-child {
 	 transform: translatey(60px);
 }
- .toggle .mask .active:last-child {
+.toggle .mask .active:last-child {
 	 transform: translatey(0);
 }
- .toggle .mask .sun {
+.toggle .mask .sun {
 	 background-color: #fff;
 }
- .toggle .mask .moon {
+.toggle .mask .moon {
 	 background-color: #283445;
 }
- .toggle .bar {
+.toggle .bar {
 	 width: 40%;
 	 height: 5px;
 	 margin: 0 auto;
 	 background-color: #283445;
 	 transition: all 300ms 100ms ease;
 }
- .toggle .bar.dark {
+.toggle .bar.dark {
 	 background-color: #fff;
 }
- .page-content {
+.page-content {
 	 max-width: 1111px;
 	 margin: 72px auto;
 }
- .page-content h2, .page-content p {
+.page-content h2, .page-content p {
 	 transition: all 300ms ease;
    color: #000;
    text-shadow: 0 0 1px #0050ff;
    text-align: center;
    mix-blend-mode: hard-light;
 }
- .page-content h2 {
+.page-content h2 {
    padding-bottom: 10px;
 	 font-size: 3.5em;
 }
- .page-content p {
+.page-content p {
 	 font-size: 2.2em;
 	 line-height: 1.5em;
 }
- .page-content .hero {
+.page-content .hero {
    width: 256px;
    height: 256px;
    display: block;
@@ -82,9 +82,9 @@
    background-repeat: no-repeat;
 	 background-image: url('./Toltecayotl.png');
 }
- .dark .hero {
+.dark .hero {
 	 background-image: url('./Toltecayotl180.png');
 }
- .dark h2, .dark p {
+.dark h2, .dark p {
 	 color: #fff;
 }
