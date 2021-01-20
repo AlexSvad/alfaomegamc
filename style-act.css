@@ -825,6 +825,12 @@ textarea.form-control:focus {
 .redes .blog:hover span {
   background: #fc4f08;
 }
+.redes .twitter:hover {
+  color: #1da1f2;
+}
+.redes .twitter:hover span {
+  background: #1da1f2;
+}
 .redes .instagram:hover {
   color: #002BD6;
 }
@@ -851,6 +857,9 @@ textarea.form-control:focus {
 }
 .redes ul li a .blog {
   color: #fc4f08;
+}
+.redes ul li a .twitter {
+  color: #1da1f2;
 }
 .redes ul li a:hover:nth-child(3) {
   color: #c32aa3;
