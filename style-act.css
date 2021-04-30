@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Product Sans";
-  src: url("fuentes/ProductSansRegular.ttf");
+  font-family: "Kumbh Sans";
+  src: url("fuentes/KumbhSansRegular.ttf");
 }
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
   background: #fff;
   background-size: cover;
   font-size: 10px;
-  font-family: "Product Sans";
+  font-family: "Kumbh Sans";
 }
 a{
   text-decoration: none;
@@ -489,7 +489,7 @@ h1 {
 }
 /***/
 h2 {
-  font-family: "Product Sans";
+  font-family: "Kumbh Sans";
   text-shadow: 0 0 1px #0050ff;
   font-size: 8vmin;
   text-align: center;
