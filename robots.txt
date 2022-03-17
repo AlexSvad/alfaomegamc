@@ -4,3 +4,4 @@ Disallow: /fotos/curso2.jpg
 Disallow: /fotos/actividades/alom1.jpeg
 Disallow: /fotos/actividades/alom2.jpeg
 Disallow: /fotos/actividades/musica1.jpg
+Disallow: /videos/audios/Sábado12-3-2022taller.mp3
