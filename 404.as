@@ -65,7 +65,7 @@
 </section>
 <section class="content">
   <div class="grand-title">
-    <h4 data-ix="slowfade-scroll-bigs">Enlaces de interés</h4>
+    <h4 data-ix="slowfade-scroll-bigs">Enlaces de interés<br><br><br></h4>
   </div>
 </section>
   <section class="redes">
