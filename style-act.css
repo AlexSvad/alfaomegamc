@@ -759,7 +759,36 @@ p {
   border-color: #0050ff !important;
   transition: all 1s ease 0s;
 }
-
+#botonFlotante *{
+	 box-sizing: border-box;
+}
+#botonFlotante button {
+	 background-color: #002BD6;
+   border: none;
+	 transition: background-color 0.5s linear, color 0.5s linear;
+}
+#botonFlotante button:hover {
+	 background-color: #0F9D58;
+}
+#botonFlotante button:focus {
+	 outline: none;
+}
+#botonFlotante .audio {
+	 animation: shadowFloat 1.2s linear alternate infinite;
+   border-radius: 30px;
+	 color: #fff;
+	 font-size: 17px;
+}
+@keyframes shadowFloat {
+	 0% {
+		 box-shadow: 0 20px 40px #c7c7c7;
+		 transform: translateY(-3px);
+	}
+	 100% {
+		 box-shadow: 0 10px 10px #cabaaa;
+		 transform: translateY(3px);
+	}
+}
 .photo{
   width: 100%;
   height: 700px;
