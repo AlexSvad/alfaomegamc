@@ -1101,6 +1101,12 @@ textarea.form-control:focus {
 .redes .google:hover span {
   background: #0F9D58;
 }
+.redes .appstore:hover {
+  color: #1ac2fb;
+}
+.redes .appstore:hover span {
+  background: #1ac2fb;
+}
 .redes .youtube:hover {
   color: #ff0000;
 }
