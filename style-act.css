@@ -752,7 +752,10 @@ p {
   padding: 15px 20px;
   text-transform: uppercase;
 }
-
+.Badges img{
+  max-width: 100%;
+    height: auto;
+}
 .flip-box-button:hover {
   background-color: #f4511e;
   background: #0050ff;
